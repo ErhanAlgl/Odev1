@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 75%;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: brown;
+}
+
+.menu {
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu:hover {
+    transform: scale(1.05);
+}
+
+.menu a {
+    padding: 15px;
+}
+
+.menu a:hover {
+    background-color: burlywood;
+    color: white;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    color: purple;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 700;
+    color: brown;
+}
+
+.hakkimizda {
+    text-align: left;
+}
